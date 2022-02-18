@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,400;1,900&display=swap');
+
+:root{
+    --primary-color: #899689;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    line-height: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    background: #D3D3D3;
+}
+
+.logo {
+    color:#fff;
+}
+.showcase-content{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    height: 300px;
+
+}
+
+
+.navbar a{
+    font-family: Times New Roman;
+    color: #000;
+}
+
+.navbab a{
+    font-family: Times New Roman;
+    color: #000;
+}
+
+.navbak a{
+    font-family: Times New Roman;
+    color: #000;
+}
+
+.navbad a{
+    font-family: Times New Roman;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.showcase{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   background: url(https://cdn.filestackcontent.com/l2Yv3HAFT63nXWimvkXc/convert?cache=true&crop=0%2C103%2C4096%2C2048&crop_first=true&quality=90&w=1920);
+   background-size: cover;
+}
+
+
+
+.showcase::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+     
+}
+
+.showcase-top {
+    position: relative;
+    height: 180px;
+    z-index: 2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+
+.showcase-top .logo{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-top a{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    z-index: 2;
+}
+
+.showcase-content h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 3rem;
+    margin: 0 0 1rem;
+}
+
+.showcase-content p{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin: 1rem 2rem;
+}
+
+.showcase-content a{
+    margin-top: 2rem;
+}
+
+ 
+/* Para sa footer naman ito */
+
+.footer{
+    max-width: 75%;
+    margin: 2rem auto;
+    overflow: auto;
+}
+
+.footer, .footer a{
+    color: #000;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 1.9;
+}
+ 
+body {
+	margin: 0;
+}
+ 
+
+ 
+
+
+/* Utilities */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-rounded{
+    border-radius: 5px;
+}
+
+.btn-xl{
+    font-size: .9rem;
+    padding: 1rem 2.1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+.btn-lg{
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+}
+
+.btn-icon{
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
